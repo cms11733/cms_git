@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="250dp"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+   
+    android:paddingBottom="@dimen/dialog_vertical_margin"
+    android:paddingLeft="@dimen/dialog_horizontal_margin"
+    android:paddingRight="@dimen/dialog_horizontal_margin"
+    android:paddingTop="@dimen/dialog_vertical_margin"
+    android:background="@drawable/default_background"
+    android:orientation="vertical"
+    tools:context=".MenuTab" >
+
+    <Button
+        android:id="@+id/resumeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/resumebtn"  
+        android:onClick="backToCamera"       
+        
+        />
+    
+     <Button
+        android:id="@+id/statusBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/statusbtn"
+        android:layout_marginTop="30dp"  
+        android:onClick="gotoSetting"      
+        />
+     
+     <Button 
+        android:id="@+id/timelineBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/timelinebtn"
+     	android:layout_marginTop="30dp"
+     	android:onClick="gotoTimeline"
+     	/> 
+     
+      
+       <Button
+        android:id="@+id/disconnectBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/disconnectbtn"
+        android:layout_marginTop="30dp"
+        android:onClick="backToMain"
+        />
+    
+    
+    </LinearLayout>

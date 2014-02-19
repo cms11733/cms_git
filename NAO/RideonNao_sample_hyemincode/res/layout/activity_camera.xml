@@ -1,0 +1,445 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".Camera" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:orientation="vertical" >
+			
+          	<FrameLayout
+                android:id="@+id/frame"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:visibility="visible">
+                <RelativeLayout 
+                    android:id="@+id/background_nao_motion"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#0000ff"
+                    android:visibility="invisible">
+                    <ImageView
+                        android:id="@+id/nao_motion" 
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/motionstandup"
+                        android:scaleType="fitXY"/>
+                    <ImageButton 
+                        android:id="@+id/nao_motion_down"
+                        android:layout_width="80dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/downarrow"
+                        android:layout_centerInParent="true"
+                        android:visibility="invisible"
+                        android:scaleType="fitXY"/>
+                    <ImageButton 
+                        android:id="@+id/nao_motion_up"
+                        android:layout_width="80dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/uparrow"
+                        android:layout_centerInParent="true"
+                        android:visibility="invisible"
+                        android:scaleType="fitXY"/>
+                    <RelativeLayout 
+                        android:id="@+id/nao_motion_left_arm_control"
+	                    android:layout_width="50dp"
+	                    android:layout_height="50dp"
+	                    android:layout_alignParentLeft="true"
+	                    android:layout_centerVertical="true">
+	                    <ImageButton 
+	                        android:id="@+id/nao_motion_left_arm_left"
+	                        android:layout_width="20dp"
+	                        android:layout_height="20dp"
+	                        android:src="@drawable/leftarrow"
+	                        android:layout_alignParentLeft="true"
+	                        android:layout_centerVertical="true"
+	                        android:scaleType="fitXY"/>
+	                    <ImageButton 
+	                        android:id="@+id/nao_motion_left_arm_right"
+	                        android:layout_width="20dp"
+	                        android:layout_height="20dp"
+	                        android:src="@drawable/rightarrow"
+	                        android:layout_alignParentRight="true"
+	                        android:layout_centerVertical="true"
+	                        android:scaleType="fitXY"/>
+	                    <ImageButton 
+	                        android:id="@+id/nao_motion_left_arm_up"
+	                        android:layout_width="20dp"
+	                        android:layout_height="20dp"
+	                        android:src="@drawable/uparrow"
+	                        android:layout_alignParentTop="true"
+	                        android:layout_centerHorizontal="true"
+	                        android:scaleType="fitXY"/>
+	                    <ImageButton 
+	                        android:id="@+id/nao_motion_left_arm_down"
+	                        android:layout_width="20dp"
+	                        android:layout_height="20dp"
+	                        android:src="@drawable/downarrow"
+	                        android:layout_alignParentBottom="true"
+	                        android:layout_centerHorizontal="true"
+	                        android:scaleType="fitXY"/>
+                    </RelativeLayout>
+                    <Button 
+                        android:id="@+id/backtoview"
+                        android:layout_width="80dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentRight="true"
+     					android:layout_alignParentBottom="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="7dp"
+                        android:text="Back"/>
+                </RelativeLayout>
+             
+	            <RelativeLayout
+	                android:id="@+id/backlayout"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent">
+	                <ImageButton
+	                    android:id="@+id/backview"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="match_parent"
+	                    android:scaleType="fitXY"
+	                    android:src="@drawable/view"
+	                    android:visibility="visible" />
+	
+	                <ImageButton
+	                    android:id="@+id/arrowleft"
+	                    android:layout_width="40dp"
+	                    android:layout_height="80dp"
+	                    android:layout_alignParentLeft="true"
+	                    android:layout_centerVertical="true"
+	                    android:background="@android:color/transparent"
+	                    android:paddingLeft="10dp"
+	                    android:scaleType="centerInside"
+	                    android:src="@drawable/leftarrow"
+	                    android:visibility="visible" />
+	
+	                <ImageButton
+	                    android:id="@+id/arrowleft_LIE"
+	                    android:layout_width="40dp"
+	                    android:layout_height="80dp"
+	                    android:layout_alignParentLeft="true"
+	                    android:layout_centerVertical="true"
+	                    android:background="@android:color/transparent"
+	                    android:paddingLeft="10dp"
+	                    android:scaleType="centerInside"
+	                    android:src="@drawable/leftarrow_lie"
+	                    android:visibility="gone" />
+	
+	                <ImageButton
+	                    android:id="@+id/arrowright"
+	                    android:layout_width="40dp"
+	                    android:layout_height="80dp"
+	                    android:layout_alignParentRight="true"
+	                    android:layout_centerVertical="true"
+	                    android:background="@android:color/transparent"
+	                    android:paddingRight="10dp"
+	                    android:scaleType="centerInside"
+	                    android:src="@drawable/rightarrow"
+	                    android:visibility="visible" />
+	
+	                <ImageButton
+	                    android:id="@+id/arrowright_LIE"
+	                    android:layout_width="40dp"
+	                    android:layout_height="80dp"
+	                    android:layout_alignParentRight="true"
+	                    android:layout_centerVertical="true"
+	                    android:background="@android:color/transparent"
+	                    android:paddingRight="10dp"
+	                    android:scaleType="centerInside"
+	                    android:src="@drawable/rightarrow_lie"
+	                    android:visibility="gone" />
+	
+	                <ImageButton
+	                    android:id="@+id/arrowup"
+	                    android:layout_width="80dp"
+	                    android:layout_height="40dp"
+	                    android:layout_alignParentTop="true"
+	                    android:layout_centerHorizontal="true"
+	                    android:background="@android:color/transparent"
+	                    android:paddingTop="10dp"
+	                    android:scaleType="centerInside"
+	                    android:src="@drawable/uparrow"
+	                    android:visibility="visible" />
+	
+	                <ImageButton
+	                    android:id="@+id/arrowup_LIE"
+	                    android:layout_width="80dp"
+	                    android:layout_height="40dp"
+	                    android:layout_alignParentTop="true"
+	                    android:layout_centerHorizontal="true"
+	                    android:background="@android:color/transparent"
+	                    android:paddingTop="10dp"
+	                    android:scaleType="centerInside"
+	                    android:src="@drawable/uparrow_lie"
+	                    android:visibility="gone" />
+	
+	                <ImageButton
+	                    android:id="@+id/arrowdown"
+	                    android:layout_width="80dp"
+	                    android:layout_height="40dp"
+	                    android:layout_alignParentBottom="true"
+	                    android:layout_centerHorizontal="true"
+	                    android:background="@android:color/transparent"
+	                    android:paddingBottom="10dp"
+	                    android:scaleType="centerInside"
+	                    android:src="@drawable/downarrow"
+	                    android:visibility="visible" />
+	
+	                <ImageButton
+	                    android:id="@+id/arrowdown_LIE"
+	                    android:layout_width="80dp"
+	                    android:layout_height="40dp"
+	                    android:layout_alignParentBottom="true"
+	                    android:layout_centerHorizontal="true"
+	                    android:background="@android:color/transparent"
+	                    android:paddingBottom="10dp"
+	                    android:scaleType="centerInside"
+	                    android:src="@drawable/downarrow_lie"
+	                    android:visibility="gone" />
+    	        </RelativeLayout>
+    	   
+    	   	</FrameLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#000000" >
+                
+                <ImageButton 
+                    android:id="@+id/recordingBtn"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="fitCenter"
+                    android:layout_alignParentLeft = "true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/record"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                     android:onClick="RecordVoice"
+                  />
+                
+                <ImageView
+                    android:id="@+id/wordsBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@id/recordingBtn"
+                    android:background="@drawable/voicetext"
+                    android:layout_marginLeft="2dp"
+                   
+                />
+                
+                <EditText
+                    android:id="@+id/wordsforNAO"
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@id/recordingBtn"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:background="@null"
+                    android:hint="Record what you wanna say"
+                    android:layout_marginLeft="15dp"
+                />
+                
+                <ImageButton
+                    android:id="@+id/sendVoice"
+                    android:layout_width="70dp"
+                    android:layout_height ="match_parent"
+                    android:scaleType="fitCenter"
+                    android:background="@android:color/transparent"
+                    android:padding="2dp"
+                    android:layout_alignParentRight = "true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/sendvoice"
+                    android:onClick="NAOspeak"
+                  />"
+                
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.2"
+             android:background="@android:color/transparent" 
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/default_background" >
+
+                <ImageButton
+                    android:id="@+id/menuBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:onClick="callMenu"
+                    android:scaleType="fitCenter"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/new_menu"
+                    android:visibility="visible" />
+
+                <ImageButton
+                    android:id="@+id/menuBtn_LIE"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/new_menu"
+                    android:visibility="gone" />
+
+                <ImageButton
+                    android:id="@+id/battery"
+                    android:layout_width="fill_parent"
+                   android:layout_height="0dp"
+                    android:layout_weight="0.7"
+                    android:background="@android:color/transparent"
+                     android:scaleType="fitCenter"                  
+                    android:layout_marginLeft="5dp"
+                   
+                    android:src="@drawable/battery_100" />
+                
+                <ImageButton
+                    android:id="@+id/naohead"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@android:color/transparent"                   
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/motor_1" />
+                
+                  <ImageView
+                    android:id="@+id/naostatus"
+                    android:layout_width="fill_parent"
+                   android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/ready"
+                    android:onClick="angleTest" 
+                    />
+                <ImageButton
+                    android:id="@+id/makepose"
+                    android:layout_width="fill_parent"
+                   android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@android:color/transparent"                   
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/sit" />
+                
+                  
+                <RelativeLayout
+                    android:id="@+id/joystick"
+                    android:layout_width="match_parent"
+                  	android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp" >
+
+                    <ImageButton
+                        android:id="@+id/leftKey"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/leftkey3"
+                        android:visibility="visible" />
+
+                    <ImageButton
+                        android:id="@+id/leftKey_lie"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/leftkey3_lie"
+                        android:visibility="gone" />
+                    
+                    <ImageButton
+                        android:id="@+id/rightKey"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/rightkey3"
+                        android:visibility="visible" />
+
+                    <ImageButton
+                        android:id="@+id/rightKey_lie"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/rightkey3_lie"
+                        android:visibility="gone" />
+                    
+                    <ImageButton
+                        android:id="@+id/upKey"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/upkey3"
+                        android:visibility="visible" />
+                    
+                     <ImageButton
+                        android:id="@+id/upKey_lie"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/upkey3_lie"
+                        android:visibility="gone" />
+
+                    <ImageButton
+                        android:id="@+id/downKey"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/downkey3"
+                        android:visibility="visible"
+                         />
+                    
+                    <ImageButton
+                        android:id="@+id/downKey_lie"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/downkey3_lie"
+                        android:visibility="gone"
+                         />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</FrameLayout>
