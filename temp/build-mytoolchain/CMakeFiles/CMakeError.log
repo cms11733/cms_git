@@ -1,0 +1,94 @@
+Determining if files pthread.h exist failed with the following output:
+Change Dir: C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe cmTryCompileExec.vcxproj /p:Configuration=Debug
+Microsoft (R) Build Engine Version 4.0.30319.1
+[Microsoft .NET Framework, Version 4.0.30319.1008]
+Copyright (c) Microsoft Corporation 2007. 모든 권리 보유.
+
+빌드 시작: 2014-01-13 오후 1:04:33
+1 노드의 "C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" 프로젝트(기본 대상)입니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c  /Zm1000 
+  Microsoft (R) 32비트 C/C++ 최적화 컴파일러 버전 16.00.30319.01(80x86)
+  Copyright (c) Microsoft Corporation. 모든 권리 보유.
+  
+  cl /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c  /Zm1000 
+cl : 명령줄 warning D9035: 'nologo-' 옵션은 더 이상 사용되지 않으므로 이후 릴리스에서 제거될 예정입니다. [C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+  CheckIncludeFiles.c
+  
+CheckIncludeFiles.c(2): fatal error C1083: 포함 파일을 열 수 없습니다. 'pthread.h': No such file or directory [C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+
+빌드하지 못했습니다.
+
+"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  cl : 명령줄 warning D9035: 'nologo-' 옵션은 더 이상 사용되지 않으므로 이후 릴리스에서 제거될 예정입니다. [C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+
+
+"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  CheckIncludeFiles.c(2): fatal error C1083: 포함 파일을 열 수 없습니다. 'pthread.h': No such file or directory [C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+
+    경고 1개
+    오류 1개
+
+경과 시간: 00:00:00.17
+
+Source:
+/* */
+#include <pthread.h>
+
+
+int main(){return 0;}
+
+Determining if files pthread.h exist failed with the following output:
+Change Dir: C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe cmTryCompileExec.vcxproj /p:Configuration=Debug
+Microsoft (R) Build Engine Version 4.0.30319.1
+[Microsoft .NET Framework, Version 4.0.30319.1008]
+Copyright (c) Microsoft Corporation 2007. 모든 권리 보유.
+
+빌드 시작: 2014-02-03 오후 3:58:08
+1 노드의 "C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" 프로젝트(기본 대상)입니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c  /Zm1000 
+  Microsoft (R) 32비트 C/C++ 최적화 컴파일러 버전 16.00.30319.01(80x86)
+  Copyright (c) Microsoft Corporation. 모든 권리 보유.
+  
+  cl /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFiles.c  /Zm1000 
+cl : 명령줄 warning D9035: 'nologo-' 옵션은 더 이상 사용되지 않으므로 이후 릴리스에서 제거될 예정입니다. [C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+  CheckIncludeFiles.c
+  
+CheckIncludeFiles.c(2): fatal error C1083: 포함 파일을 열 수 없습니다. 'pthread.h': No such file or directory [C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+
+빌드하지 못했습니다.
+
+"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  cl : 명령줄 warning D9035: 'nologo-' 옵션은 더 이상 사용되지 않으므로 이후 릴리스에서 제거될 예정입니다. [C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+
+
+"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  CheckIncludeFiles.c(2): fatal error C1083: 포함 파일을 열 수 없습니다. 'pthread.h': No such file or directory [C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+
+    경고 1개
+    오류 1개
+
+경과 시간: 00:00:00.20
+
+Source:
+/* */
+#include <pthread.h>
+
+
+int main(){return 0;}
+

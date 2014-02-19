@@ -1,0 +1,146 @@
+# CMake generation dependency list for this directory.
+C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/CMakeLists.txt
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeVS10FindMake.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeDetermineSystem.cmake
+c:/Users/ChaMS/.cache/qi/toolchains/mytoolchain/toolchain-mytoolchain.cmake
+c:/program files (x86)/cmake 2.8/share/cmake-2.8/Modules/CMakeSystem.cmake.in
+C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeSystem.cmake
+c:/Users/ChaMS/.cache/qi/toolchains/mytoolchain/toolchain-mytoolchain.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeDetermineCCompiler.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeFindBinUtils.cmake
+c:/program files (x86)/cmake 2.8/share/cmake-2.8/Modules/CMakeCCompiler.cmake.in
+C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeCCompiler.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeDetermineCXXCompiler.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeFindBinUtils.cmake
+c:/program files (x86)/cmake 2.8/share/cmake-2.8/Modules/CMakeCXXCompiler.cmake.in
+C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeCXXCompiler.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeSystemSpecificInformation.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeGenericSystem.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/WindowsPaths.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCInformation.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-cl.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/cl.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeDetermineRCCompiler.cmake
+c:/program files (x86)/cmake 2.8/share/cmake-2.8/Modules/CMakeRCCompiler.cmake.in
+C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeRCCompiler.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeRCInformation.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeTestRCCompiler.cmake
+c:/program files (x86)/cmake 2.8/share/cmake-2.8/Modules/Platform/Windows-cl.cmake.in
+c:/program files (x86)/cmake 2.8/share/cmake-2.8/Modules/Platform/Windows-cl.cmake.in
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeTestCCompiler.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeTestCompilerCommon.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeDetermineCompilerABI.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseImplicitLinkInfo.cmake
+c:/program files (x86)/cmake 2.8/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+c:/program files (x86)/cmake 2.8/share/cmake-2.8/Modules/CMakeCCompiler.cmake.in
+C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeCCompiler.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCXXInformation.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-cl.cmake
+C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeCPlatform.cmake
+C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeCXXPlatform.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/cl.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeTestCXXCompiler.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeTestCompilerCommon.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeDetermineCompilerABI.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseImplicitLinkInfo.cmake
+c:/program files (x86)/cmake 2.8/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+c:/program files (x86)/cmake 2.8/share/cmake-2.8/Modules/CMakeCXXCompiler.cmake.in
+C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeCXXCompiler.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/qibuild-config.cmake
+C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/dependencies.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/general.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/log.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/set.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/subdirectory.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/internal/layout.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/internal/install.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/internal/glob.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/internal/autostrap.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/find.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/flags.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/tests.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/install.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/target.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/submodule.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/stage.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/internal/stage.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/internal/uselib.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/internal/list.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/option.cmake
+c:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/share/cmake/alcommon/alcommon-config.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+c:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/share/cmake/alcommon-internal/alcommon-internal-config.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+c:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/share/cmake/alsoap/alsoap-config.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+c:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/share/cmake/alvalue/alvalue-config.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+c:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/share/cmake/alerror/alerror-config.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/modules/boost-config.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindBoost.cmake
+c:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/share/cmake/tinyxml/tinyxml-config.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/modules/wsock-config.cmake
+c:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/share/cmake/rttools/rttools-config.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/modules/pthread-config.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindThreads.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFiles.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckLibraryExists.cmake
+c:/program files (x86)/cmake 2.8/share/cmake-2.8/Modules/CMakeConfigurableFile.in
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+c:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/share/cmake/qi/qi-config.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/modules/boost_filesystem-config.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/modules/boostutils.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindBoost.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/modules/boost_system-config.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/modules/boostutils.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindBoost.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/modules/boost_thread-config.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/modules/boostutils.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindBoost.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/modules/boost_date_time-config.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/modules/boostutils.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindBoost.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/modules/iphlpapi-config.cmake
+c:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/share/cmake/althread/althread-config.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/modules/boost_signals-config.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/modules/boostutils.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindBoost.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/modules/boost_program_options-config.cmake
+c:/Users/ChaMS/Downloads/qibuild-1.14.5/qibuild-1.14.3/cmake/qibuild/modules/boostutils.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindBoost.cmake

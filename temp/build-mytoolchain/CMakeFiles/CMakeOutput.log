@@ -1,0 +1,405 @@
+The system is: Windows - 6.1 - x86
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe cmTryCompileExec.vcxproj /p:Configuration=Debug
+Microsoft (R) Build Engine Version 4.0.30319.1
+[Microsoft .NET Framework, Version 4.0.30319.1008]
+Copyright (c) Microsoft Corporation 2007. 모든 권리 보유.
+
+빌드 시작: 2014-01-13 오후 1:04:29
+1 노드의 "C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTryCompileExec.dir\Debug\" 디렉터리를 만들고 있습니다.
+  "C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c  /Zm1000 
+  Microsoft (R) 32비트 C/C++ 최적화 컴파일러 버전 16.00.30319.01(80x86)
+  Copyright (c) Microsoft Corporation. 모든 권리 보유.
+  
+  cl /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c  /Zm1000 
+cl : 명령줄 warning D9035: 'nologo-' 옵션은 더 이상 사용되지 않으므로 이후 릴리스에서 제거될 예정입니다. [C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+  testCCompiler.c
+  
+ManifestResourceCompile:
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res" cmTryCompileExec.dir\Debug\cmTryCompileExec_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe" /VERSION:"0.0" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.lib" /MACHINE:X86 cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res
+  cmTryCompileExec.dir\Debug\testCCompiler.obj  /machine:X86 /debug 
+Manifest:
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest" /manifest cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.intermediate.manifest
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res" cmTryCompileExec.dir\Debug\cmTryCompileExec_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe" /VERSION:"0.0" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.lib" /MACHINE:X86 cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res
+  cmTryCompileExec.dir\Debug\testCCompiler.obj  /machine:X86 /debug 
+  cmTryCompileExec.vcxproj -> C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe
+FinalizeBuildStatus:
+  "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+  "cmTryCompileExec.dir\Debug\cmTryCompileExec.lastbuildstate"에 연결(touching)하고 있습니다.
+"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+
+빌드했습니다.
+
+"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  cl : 명령줄 warning D9035: 'nologo-' 옵션은 더 이상 사용되지 않으므로 이후 릴리스에서 제거될 예정입니다. [C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+
+    경고 1개
+    오류 0개
+
+경과 시간: 00:00:00.71
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe cmTryCompileExec.vcxproj /p:Configuration=Debug
+Microsoft (R) Build Engine Version 4.0.30319.1
+[Microsoft .NET Framework, Version 4.0.30319.1008]
+Copyright (c) Microsoft Corporation 2007. 모든 권리 보유.
+
+빌드 시작: 2014-01-13 오후 1:04:30
+1 노드의 "C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" 프로젝트(기본 대상)입니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\..\..\..\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"  /Zm1000 
+  Microsoft (R) 32비트 C/C++ 최적화 컴파일러 버전 16.00.30319.01(80x86)
+  Copyright (c) Microsoft Corporation. 모든 권리 보유.
+  
+  cl /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\..\..\..\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"  /Zm1000 
+cl : 명령줄 warning D9035: 'nologo-' 옵션은 더 이상 사용되지 않으므로 이후 릴리스에서 제거될 예정입니다. [C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+  CMakeCCompilerABI.c
+  
+ManifestResourceCompile:
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res" cmTryCompileExec.dir\Debug\cmTryCompileExec_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe" /VERSION:"0.0" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.lib" /MACHINE:X86 cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res
+  cmTryCompileExec.dir\Debug\CMakeCCompilerABI.obj  /debug 
+Manifest:
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest" /manifest cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.intermediate.manifest
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res" cmTryCompileExec.dir\Debug\cmTryCompileExec_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe" /VERSION:"0.0" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.lib" /MACHINE:X86 cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res
+  cmTryCompileExec.dir\Debug\CMakeCCompilerABI.obj  /debug 
+  cmTryCompileExec.vcxproj -> C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe
+FinalizeBuildStatus:
+  "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+  "cmTryCompileExec.dir\Debug\cmTryCompileExec.lastbuildstate"에 연결(touching)하고 있습니다.
+"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+
+빌드했습니다.
+
+"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  cl : 명령줄 warning D9035: 'nologo-' 옵션은 더 이상 사용되지 않으므로 이후 릴리스에서 제거될 예정입니다. [C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+
+    경고 1개
+    오류 0개
+
+경과 시간: 00:00:00.67
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe cmTryCompileExec.vcxproj /p:Configuration=Debug
+Microsoft (R) Build Engine Version 4.0.30319.1
+[Microsoft .NET Framework, Version 4.0.30319.1008]
+Copyright (c) Microsoft Corporation 2007. 모든 권리 보유.
+
+빌드 시작: 2014-01-13 오후 1:04:31
+1 노드의 "C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" 프로젝트(기본 대상)입니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TP /analyze- /errorReport:queue testCXXCompiler.cxx  /Zm1000 
+  Microsoft (R) 32비트 C/C++ 최적화 컴파일러 버전 16.00.30319.01(80x86)
+  Copyright (c) Microsoft Corporation. 모든 권리 보유.
+  
+  cl /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TP /analyze- /errorReport:queue testCXXCompiler.cxx  /Zm1000 
+cl : 명령줄 warning D9035: 'nologo-' 옵션은 더 이상 사용되지 않으므로 이후 릴리스에서 제거될 예정입니다. [C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+  testCXXCompiler.cxx
+  
+ManifestResourceCompile:
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res" cmTryCompileExec.dir\Debug\cmTryCompileExec_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe" /VERSION:"0.0" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.lib" /MACHINE:X86 cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res
+  cmTryCompileExec.dir\Debug\testCXXCompiler.obj  /machine:X86 /debug 
+Manifest:
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest" /manifest cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.intermediate.manifest
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res" cmTryCompileExec.dir\Debug\cmTryCompileExec_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe" /VERSION:"0.0" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.lib" /MACHINE:X86 cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res
+  cmTryCompileExec.dir\Debug\testCXXCompiler.obj  /machine:X86 /debug 
+  cmTryCompileExec.vcxproj -> C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe
+FinalizeBuildStatus:
+  "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+  "cmTryCompileExec.dir\Debug\cmTryCompileExec.lastbuildstate"에 연결(touching)하고 있습니다.
+"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+
+빌드했습니다.
+
+"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  cl : 명령줄 warning D9035: 'nologo-' 옵션은 더 이상 사용되지 않으므로 이후 릴리스에서 제거될 예정입니다. [C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+
+    경고 1개
+    오류 0개
+
+경과 시간: 00:00:00.72
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe cmTryCompileExec.vcxproj /p:Configuration=Debug
+Microsoft (R) Build Engine Version 4.0.30319.1
+[Microsoft .NET Framework, Version 4.0.30319.1008]
+Copyright (c) Microsoft Corporation 2007. 모든 권리 보유.
+
+빌드 시작: 2014-01-13 오후 1:04:32
+1 노드의 "C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" 프로젝트(기본 대상)입니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TP /analyze- /errorReport:queue "..\..\..\..\..\..\..\..\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp"  /Zm1000 
+  Microsoft (R) 32비트 C/C++ 최적화 컴파일러 버전 16.00.30319.01(80x86)
+  Copyright (c) Microsoft Corporation. 모든 권리 보유.
+  
+  cl /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TP /analyze- /errorReport:queue "..\..\..\..\..\..\..\..\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp"  /Zm1000 
+cl : 명령줄 warning D9035: 'nologo-' 옵션은 더 이상 사용되지 않으므로 이후 릴리스에서 제거될 예정입니다. [C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+  CMakeCXXCompilerABI.cpp
+  
+ManifestResourceCompile:
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res" cmTryCompileExec.dir\Debug\cmTryCompileExec_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe" /VERSION:"0.0" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.lib" /MACHINE:X86 cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res
+  cmTryCompileExec.dir\Debug\CMakeCXXCompilerABI.obj  /debug 
+Manifest:
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest" /manifest cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.intermediate.manifest
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res" cmTryCompileExec.dir\Debug\cmTryCompileExec_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe" /VERSION:"0.0" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.lib" /MACHINE:X86 cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res
+  cmTryCompileExec.dir\Debug\CMakeCXXCompilerABI.obj  /debug 
+  cmTryCompileExec.vcxproj -> C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe
+FinalizeBuildStatus:
+  "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+  "cmTryCompileExec.dir\Debug\cmTryCompileExec.lastbuildstate"에 연결(touching)하고 있습니다.
+"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+
+빌드했습니다.
+
+"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  cl : 명령줄 warning D9035: 'nologo-' 옵션은 더 이상 사용되지 않으므로 이후 릴리스에서 제거될 예정입니다. [C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+
+    경고 1개
+    오류 0개
+
+경과 시간: 00:00:00.73
+
+
+The system is: Windows - 6.1 - x86
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe cmTryCompileExec.vcxproj /p:Configuration=Debug
+Microsoft (R) Build Engine Version 4.0.30319.1
+[Microsoft .NET Framework, Version 4.0.30319.1008]
+Copyright (c) Microsoft Corporation 2007. 모든 권리 보유.
+
+빌드 시작: 2014-02-03 오후 3:58:02
+1 노드의 "C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" 프로젝트(기본 대상)입니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c  /Zm1000 
+  Microsoft (R) 32비트 C/C++ 최적화 컴파일러 버전 16.00.30319.01(80x86)
+  Copyright (c) Microsoft Corporation. 모든 권리 보유.
+  
+  cl /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c  /Zm1000 
+cl : 명령줄 warning D9035: 'nologo-' 옵션은 더 이상 사용되지 않으므로 이후 릴리스에서 제거될 예정입니다. [C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+  
+  testCCompiler.c
+ManifestResourceCompile:
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res" cmTryCompileExec.dir\Debug\cmTryCompileExec_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe" /VERSION:"0.0" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.lib" /MACHINE:X86 cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res
+  cmTryCompileExec.dir\Debug\testCCompiler.obj  /machine:X86 /debug 
+Manifest:
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest" /manifest cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.intermediate.manifest
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res" cmTryCompileExec.dir\Debug\cmTryCompileExec_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe" /VERSION:"0.0" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.lib" /MACHINE:X86 cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res
+  cmTryCompileExec.dir\Debug\testCCompiler.obj  /machine:X86 /debug 
+  cmTryCompileExec.vcxproj -> C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe
+FinalizeBuildStatus:
+  "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+  "cmTryCompileExec.dir\Debug\cmTryCompileExec.lastbuildstate"에 연결(touching)하고 있습니다.
+"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+
+빌드했습니다.
+
+"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  cl : 명령줄 warning D9035: 'nologo-' 옵션은 더 이상 사용되지 않으므로 이후 릴리스에서 제거될 예정입니다. [C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+
+    경고 1개
+    오류 0개
+
+경과 시간: 00:00:01.80
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe cmTryCompileExec.vcxproj /p:Configuration=Debug
+Microsoft (R) Build Engine Version 4.0.30319.1
+[Microsoft .NET Framework, Version 4.0.30319.1008]
+Copyright (c) Microsoft Corporation 2007. 모든 권리 보유.
+
+빌드 시작: 2014-02-03 오후 3:58:04
+1 노드의 "C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" 프로젝트(기본 대상)입니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\..\..\..\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"  /Zm1000 
+  Microsoft (R) 32비트 C/C++ 최적화 컴파일러 버전 16.00.30319.01(80x86)
+  Copyright (c) Microsoft Corporation. 모든 권리 보유.
+  
+  cl /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\..\..\..\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"  /Zm1000 
+cl : 명령줄 warning D9035: 'nologo-' 옵션은 더 이상 사용되지 않으므로 이후 릴리스에서 제거될 예정입니다. [C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+  CMakeCCompilerABI.c
+  
+ManifestResourceCompile:
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res" cmTryCompileExec.dir\Debug\cmTryCompileExec_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe" /VERSION:"0.0" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.lib" /MACHINE:X86 cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res
+  cmTryCompileExec.dir\Debug\CMakeCCompilerABI.obj  /debug 
+Manifest:
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest" /manifest cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.intermediate.manifest
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res" cmTryCompileExec.dir\Debug\cmTryCompileExec_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe" /VERSION:"0.0" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.lib" /MACHINE:X86 cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res
+  cmTryCompileExec.dir\Debug\CMakeCCompilerABI.obj  /debug 
+  cmTryCompileExec.vcxproj -> C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe
+FinalizeBuildStatus:
+  "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+  "cmTryCompileExec.dir\Debug\cmTryCompileExec.lastbuildstate"에 연결(touching)하고 있습니다.
+"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+
+빌드했습니다.
+
+"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  cl : 명령줄 warning D9035: 'nologo-' 옵션은 더 이상 사용되지 않으므로 이후 릴리스에서 제거될 예정입니다. [C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+
+    경고 1개
+    오류 0개
+
+경과 시간: 00:00:00.72
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe cmTryCompileExec.vcxproj /p:Configuration=Debug
+Microsoft (R) Build Engine Version 4.0.30319.1
+[Microsoft .NET Framework, Version 4.0.30319.1008]
+Copyright (c) Microsoft Corporation 2007. 모든 권리 보유.
+
+빌드 시작: 2014-02-03 오후 3:58:05
+1 노드의 "C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" 프로젝트(기본 대상)입니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TP /analyze- /errorReport:queue testCXXCompiler.cxx  /Zm1000 
+  Microsoft (R) 32비트 C/C++ 최적화 컴파일러 버전 16.00.30319.01(80x86)
+  Copyright (c) Microsoft Corporation. 모든 권리 보유.
+  
+  cl /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TP /analyze- /errorReport:queue testCXXCompiler.cxx  /Zm1000 
+cl : 명령줄 warning D9035: 'nologo-' 옵션은 더 이상 사용되지 않으므로 이후 릴리스에서 제거될 예정입니다. [C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+  
+  testCXXCompiler.cxx
+ManifestResourceCompile:
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res" cmTryCompileExec.dir\Debug\cmTryCompileExec_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe" /VERSION:"0.0" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.lib" /MACHINE:X86 cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res
+  cmTryCompileExec.dir\Debug\testCXXCompiler.obj  /machine:X86 /debug 
+Manifest:
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest" /manifest cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.intermediate.manifest
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res" cmTryCompileExec.dir\Debug\cmTryCompileExec_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe" /VERSION:"0.0" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.lib" /MACHINE:X86 cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res
+  cmTryCompileExec.dir\Debug\testCXXCompiler.obj  /machine:X86 /debug 
+  cmTryCompileExec.vcxproj -> C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe
+FinalizeBuildStatus:
+  "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+  "cmTryCompileExec.dir\Debug\cmTryCompileExec.lastbuildstate"에 연결(touching)하고 있습니다.
+"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+
+빌드했습니다.
+
+"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  cl : 명령줄 warning D9035: 'nologo-' 옵션은 더 이상 사용되지 않으므로 이후 릴리스에서 제거될 예정입니다. [C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+
+    경고 1개
+    오류 0개
+
+경과 시간: 00:00:00.78
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe cmTryCompileExec.vcxproj /p:Configuration=Debug
+Microsoft (R) Build Engine Version 4.0.30319.1
+[Microsoft .NET Framework, Version 4.0.30319.1008]
+Copyright (c) Microsoft Corporation 2007. 모든 권리 보유.
+
+빌드 시작: 2014-02-03 오후 3:58:06
+1 노드의 "C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" 프로젝트(기본 대상)입니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TP /analyze- /errorReport:queue "..\..\..\..\..\..\..\..\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp"  /Zm1000 
+  Microsoft (R) 32비트 C/C++ 최적화 컴파일러 버전 16.00.30319.01(80x86)
+  Copyright (c) Microsoft Corporation. 모든 권리 보유.
+  
+  cl /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TP /analyze- /errorReport:queue "..\..\..\..\..\..\..\..\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp"  /Zm1000 
+cl : 명령줄 warning D9035: 'nologo-' 옵션은 더 이상 사용되지 않으므로 이후 릴리스에서 제거될 예정입니다. [C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+  
+  CMakeCXXCompilerABI.cpp
+ManifestResourceCompile:
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res" cmTryCompileExec.dir\Debug\cmTryCompileExec_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe" /VERSION:"0.0" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.lib" /MACHINE:X86 cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res
+  cmTryCompileExec.dir\Debug\CMakeCXXCompilerABI.obj  /debug 
+Manifest:
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest" /manifest cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.intermediate.manifest
+  c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res" cmTryCompileExec.dir\Debug\cmTryCompileExec_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe" /VERSION:"0.0" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ChaMS/Documents/naoqi-sdk-1.14.5-win32-vs2010/temp/build-mytoolchain/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.lib" /MACHINE:X86 cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res
+  cmTryCompileExec.dir\Debug\CMakeCXXCompilerABI.obj  /debug 
+  cmTryCompileExec.vcxproj -> C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe
+FinalizeBuildStatus:
+  "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+  "cmTryCompileExec.dir\Debug\cmTryCompileExec.lastbuildstate"에 연결(touching)하고 있습니다.
+"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+
+빌드했습니다.
+
+"C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  cl : 명령줄 warning D9035: 'nologo-' 옵션은 더 이상 사용되지 않으므로 이후 릴리스에서 제거될 예정입니다. [C:\Users\ChaMS\Documents\naoqi-sdk-1.14.5-win32-vs2010\temp\build-mytoolchain\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+
+    경고 1개
+    오류 0개
+
+경과 시간: 00:00:00.71
+
+
