@@ -26,7 +26,7 @@
   
     <EditText
         android:id="@+id/enterIP"
-        android:text="192.168.0.6"
+        android:text="192.168.123.1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/titleIP"
