@@ -48,6 +48,7 @@ public class Timeline extends Activity {
 		
 	}
 	
+	//////////////Get Button ClickListener////////////////////////
 	public void getBtn(View v) {
 		try{
 			
@@ -57,11 +58,7 @@ public class Timeline extends Activity {
 			anglelist.clear();
 			NameAngleList.clear();
 			for(int i=0; i<26; i++){
-				NameAngleList.add(new NameAngle(
-						//angle_names[i]
-						Integer.toString(i), Float.parseFloat(angles[i])));
-//				anglelist.add(angles[i]);
-////				anglelist.add(angle_names[i] + " : " + Math.toDegrees(Float.parseFloat(angles[i])) + "Degree");
+				NameAngleList.add(new NameAngle(angle_names[i], Float.parseFloat(angles[i])));
 			}
 			angleListAdapter.notifyDataSetChanged();
 			
@@ -73,29 +70,39 @@ public class Timeline extends Activity {
 		
 	}
 	
+//////////////Set Button ClickListener////////////////////////
 	public void setBtn(View v){
 		if(isGet==false){
 			Toast.makeText(Timeline.this, "Before SET, Get the angles", Toast.LENGTH_SHORT).show();
 			return ; 
 		}
 		String angles_str_temp = "";
-		for(int i=0;i<angles.length;i++){
+		for(int i=0;i<NameAngleList.size();i++){
 			if(i!=angles.length-1){
-				angles_str_temp = angles_str_temp + angles[i] + "_";
+				angles_str_temp = angles_str_temp + NameAngleList.get(i).Angle + "_";
 			}
 			else{
-				angles_str_temp = angles_str_temp + angles[i];
+				angles_str_temp = angles_str_temp + NameAngleList.get(i).Angle;
 			}
 		}
 		try{
 			socket_serv.sendMsg("ALMotion^setAngles^Body^"+angles_str_temp+"^1.0");
-			Toast.makeText(Timeline.this, angles_str_temp, Toast.LENGTH_SHORT).show();
+			Log.i("CMS", angles_str_temp);
 		}catch(RemoteException re){
 			Log.d("setbtnclick",re.toString());
 		}
 		return ;
 	}
 	
+	public void saveBtn(View v){
+		if(isGet==false){
+			Toast.makeText(Timeline.this, "Before SAVE, Get the angles", Toast.LENGTH_SHORT).show();
+			return ; 
+		}
+		
+	}
+	
+//////////////Custom Adapter////////////////////////
 	private class AngleListAdapter extends ArrayAdapter<NameAngle> {
 		LayoutInflater Inflater;
 		int TextViewResourceID;
@@ -106,54 +113,81 @@ public class Timeline extends Activity {
 			this.TextViewResourceID = TextViewResourceID;
 		}
 		
+		/* Get View override*/
 		public View getView(int position, View convertView, ViewGroup parant){
 			final ViewHolder nameAngleHolder;
 			View v = convertView;
-			final NameAngle item = this.getItem(position);
+			
 			if(v == null){
 				v = Inflater.inflate(TextViewResourceID,null);
 				nameAngleHolder = new ViewHolder();
 				nameAngleHolder.sb = (SeekBar) v.findViewById(R.id.seekbar_angle);
 				nameAngleHolder.tv = (TextView) v.findViewById(R.id.value_angle);
-				nameAngleHolder.sb.setOnSeekBarChangeListener(new OnSeekBarChangeListener() {
-					
-					@Override
-					public void onStopTrackingTouch(SeekBar seekBar) {
-						// TODO Auto-generated method stub
-						
-					}
-					
-					@Override
-					public void onStartTrackingTouch(SeekBar seekBar) {
-						// TODO Auto-generated method stub
-						
-					}
-					
-					@Override
-					public void onProgressChanged(SeekBar seekBar, int progress,
-							boolean fromUser) {
-						// TODO Auto-generated method stub
-						nameAngleHolder.tv.setText(item.Name + " = " + Integer.toString(progress-90)+"Degress");
-						
-					}
-				});
 				v.setTag(nameAngleHolder);
 			}else{
 				nameAngleHolder = (ViewHolder) v.getTag();
 			}
+			
+			final NameAngle item = this.getItem(position);
 			int value_angle = (int)Math.toDegrees(item.Angle);
+
+			nameAngleHolder.sb.setOnSeekBarChangeListener(new seekbarListener(item, nameAngleHolder));
 			nameAngleHolder.tv.setText(item.Name + " = " + Integer.toString(value_angle)+" Degree");
+			nameAngleHolder.sb.setProgress(value_angle+90);
 			Log.i("CMS",item.Name);
 			
-			nameAngleHolder.sb.setProgress(value_angle+90);
-			
-			
 			return v;
+		}
+		
+		/*
+		 * SeekBar Listener. Custom으로 만들어서 item을 인자로 주지 않으면 scroll시 position이 정확하게 전달되지 못하는 문제가 발생 
+		 */
+		private class seekbarListener implements OnSeekBarChangeListener {
+			NameAngle NA;
+			ViewHolder VH;
+			public seekbarListener(NameAngle na, ViewHolder vh){
+				this.NA = na;
+				this.VH = vh;
+			}
+			@Override
+			public void onStopTrackingTouch(SeekBar seekBar) {}
+			
+			@Override
+			public void onStartTrackingTouch(SeekBar seekBar) {}
+			
+			@Override
+			public void onProgressChanged(SeekBar seekBar, int progress,
+					boolean fromUser) {
+				// TODO Auto-generated method stub
+				VH.tv.setText(NA.Name + " = " + Integer.toString(progress-90)+" Degree");
+				NA.Angle = Math.toRadians(progress-90);
+				Log.i("CMS", NA.toString());
+			}
 		}
 
 		
 	}
 	
+	private class NameAngle{
+		NameAngle(String name, float angle){
+			this.Name = name;
+			this.Angle = angle;
+		}
+		String Name;
+		double Angle;
+		
+		@Override
+		public String toString(){
+			return new String(Name + " : " + Angle + " Randians and " + Math.toDegrees(Angle) + " Degrees");
+		}
+	}
+	
+	private class ViewHolder{
+		public SeekBar sb;
+		public TextView tv;
+	}
+	
+	//Angle_names
 	{
 		angle_names[0] = "HeadYaw";
 		angle_names[1] = "HeadPitch";
@@ -181,20 +215,6 @@ public class Timeline extends Activity {
 		angle_names[23] = "RElbowRoll";
 		angle_names[24] = "RWristYaw2";
 		angle_names[25] = "RHand2";
-	}
-	
-	private class NameAngle{
-		NameAngle(String name, float angle){
-			this.Name = name;
-			this.Angle = angle;
-		}
-		String Name;
-		float Angle;
-	}
-	
-	private class ViewHolder{
-		public SeekBar sb;
-		public TextView tv;
 	}
 	
 }
